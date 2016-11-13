@@ -62,8 +62,6 @@ printf "... ${GR}Cleaning up...${NC}\n"
 rm uninstall.sh
 rm refresh.sh
 rm runserver.sh
-
-
 EOT
 
 chmod 777 runserver.sh
