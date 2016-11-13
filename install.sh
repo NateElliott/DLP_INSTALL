@@ -69,4 +69,5 @@ chmod 777 uninstall.sh
 printf "${WT}Install complete!${NC}\n\n"
 
 printf "Use: ${GR}sudo ./runserver.sh${NC} to start local development server.\n"
+printf "Use: ${GR}sudo ./refresh.sh${NC} to refresh local development server.\n"
 printf "Use: ${GR}sudo ./uninstall.sh${NC} to remove local development environment.\n\n"
