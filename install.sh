@@ -60,12 +60,16 @@ printf "... ${GR}Removing DLP(core)${NC}\n"
 rm -rf DLP/
 printf "... ${GR}Cleaning up...${NC}\n"
 rm uninstall.sh
+rm refresh.sh
 rm runserver.sh
+
 
 EOT
 
 chmod 777 runserver.sh
+chomd 777 refresh.s
 chmod 777 uninstall.sh
+
 printf "${WT}Install complete!${NC}\n\n"
 
 printf "Use: ${GR}sudo ./runserver.sh${NC} to start local development server.\n"
