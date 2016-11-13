@@ -38,10 +38,11 @@ EOT
 
 touch uninstall.sh
 cat <<EOT >> uninstall.sh
+printf "\n${WT}Removing DLP${NC}\n"
 printf "... ${GR}Removing backbone${NC}\n"
 rm -rf backbone/
 printf "... ${GR}Removing DLP(core)${NC}\n"
-rm -rm DLP
+rm -rf DLP/
 printf "... ${GR}Cleaning up...${NC}\n"
 rm uninstall.sh
 rm runserver.sh
@@ -52,5 +53,5 @@ chmod 777 runserver.sh
 chmod 777 uninstall.sh
 printf "${WT}Install complete!${NC}\n\n"
 
-printf "Use: ${GR}sudo ./runserver.sh${NC} to start local development server\n"
-printf "Use: ${GR}sudo ./uninstall.sh${NC} to remove local development environment\n\n"
+printf "Use: ${GR}sudo ./runserver.sh${NC} to start local development server.\n"
+printf "Use: ${GR}sudo ./uninstall.sh${NC} to remove local development environment.\n\n"
