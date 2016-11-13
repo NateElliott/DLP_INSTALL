@@ -67,7 +67,7 @@ rm runserver.sh
 EOT
 
 chmod 777 runserver.sh
-chomd 777 refresh.s
+chomd 777 refresh.sh
 chmod 777 uninstall.sh
 
 printf "${WT}Install complete!${NC}\n\n"
