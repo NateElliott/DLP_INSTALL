@@ -1,5 +1,4 @@
 #!/bin/bash
-cd /home
 
 WT='\033[1;37m'
 GR='\033[0;32m'
