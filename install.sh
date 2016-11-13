@@ -27,7 +27,7 @@ printf "\n${WT}Removal complete${NC}\n\n"
 else
 
 printf "\n${WT}Installing DLP${NC}\n"
-read -p "$(echo -e "Enter branch:)" BRAN
+read -p "$(echo -e "Enter branch:")" BRAN
 
 printf "... ${GR}Preparing to install${NC}\n"
 sudo apt-get -qq update
@@ -60,3 +60,4 @@ printf "${WT}Install complete!${NC}\n\n"
 printf "Use: ${GR}sudo ./runserver.sh${NC} to start local dev server\n\n"
 
 fi
+
