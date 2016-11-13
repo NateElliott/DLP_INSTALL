@@ -2,18 +2,18 @@ Daimler Learning Platform Install
 
 ----------
 
-To install all necessary components to run the DLP locally run:
+Download and install DLP components
 
     ./DLP_INSTALL/install.sh
 
-To start the local development server
+Start the local development server
 
     sudo ./runserver
 
-To refresh the local environment
+Refresh the local environment
 
     sudo ./refresh.sh
 
-To remove the local development environment
+Remove the local development environment
 
     sudo ./uninstall.sh
