@@ -42,7 +42,11 @@ cat <<EOT >> refresh.sh
 REPO=$REPO
 BRAN=$BRAN
 printf "\n${WT}Refreshing local development environment${NC}\n"
+
+printf "... ${GR}Flushing DLP(core)${NC}\n"
 rm -rf DLP/
+
+printf "... ${GR}Cloning DLP(core)${NC}\n"
 git clone -b $BRAN -q $REPO
 EOT
 
