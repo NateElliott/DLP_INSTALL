@@ -1,4 +1,4 @@
-Daimler Learning Platform Install
+**Daimler Learning Platform Install**
 
 ----------
 
@@ -10,7 +10,7 @@ Start the local development server
 
     sudo ./runserver
 
-Refresh the local environment
+Refresh the local development environment
 
     sudo ./refresh.sh
 
