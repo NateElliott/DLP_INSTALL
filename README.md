@@ -10,6 +10,10 @@ To start the local development server
 
     sudo ./runserver
 
+To refresh the local environment
+
+    sudo ./refresh.sh
+
 To remove the local development environment
 
     sudo ./uninstall.sh

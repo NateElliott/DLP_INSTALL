@@ -36,6 +36,17 @@ cat <<EOT >> runserver.sh
 backbone/bin/python DLP/playground/manage.py runserver
 EOT
 
+
+touch refresh.sh
+cat <<EOT >> refresh.sh
+REPO=$REPO
+BRAN=$BRAN
+printf "\n${WT}Refreshing local development environment${NC}\n"
+rm -rf DLP/
+git clone -b $BRAN -q $REPO
+EOT
+
+
 touch uninstall.sh
 cat <<EOT >> uninstall.sh
 printf "\n${WT}Removing DLP${NC}\n"
