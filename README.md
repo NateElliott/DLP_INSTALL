@@ -1,16 +1,15 @@
 Daimler Learning Platform Install
 
 ----------
+
 To install all necessary components to run the DLP locally run:
 
-    ./install.sh
+    ./DLP_INSTALL/install.sh
 
-To run the local server use:
+To start the local development server
 
-    ./runserver.sh
+    sudo ./runserver
 
-CTRL-C will exit the server.
+To remove the local development environment
 
-To remove all installed components run:
-
-    ./install.sh remove
+    sudo ./uninstall.sh
